@@ -1,9 +1,11 @@
 package com.allfather163.skypro.employeeBook;
 
+import org.springframework.stereotype.Service;
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 
+@Service
 public class DepartmentService {
     public Collection<Employee> getEmployeesInDepartment(int department) {
         return getEmployees();
